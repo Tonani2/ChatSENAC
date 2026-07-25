@@ -24,6 +24,7 @@ class Login extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Row(children: [FlutterLogo(size: 18), Text("ChatSENAC")]),
+        SizedBox(height: 32),
 
         //Títulos
         Text("Entre na sua conta", style: Tipografia.h1),
