@@ -29,7 +29,11 @@ class Login extends StatelessWidget {
           )), style: Tipografia.subtitulo,),
           SizedBox(height: 19),
           Text("Senha", style: Tipografia.subtitulo),
-          TextField(decoration: InputDecoration(border: OutlineInputBorder(
+          TextField(
+            obscureText: true,
+            decoration: InputDecoration(
+                suffixIcon: Icon(Icons.visibility_off),
+                border: OutlineInputBorder(
               borderRadius: BorderRadius.circular(10)
           )), style: Tipografia.subtitulo,),
           SizedBox(height: 10),
